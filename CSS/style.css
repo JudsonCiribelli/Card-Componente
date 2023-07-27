@@ -3,19 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: hsl(217, 54%, 11%);
+}
 .content {
-  display: flex;
+  background-color: hsl(216, 54%, 16%);
   width: 400px;
   height: 600px;
   margin-top: 180px;
   margin-left: 700px;
-  border: 2px solid black;
+  border: none;
   border-radius: 10px;
 }
 .content img {
+  display: flex;
   width: 350px;
   height: 350px;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-left: 40px;
-  border-radius: 10px;
+}
+.content h2 {
+  color: white;
 }
