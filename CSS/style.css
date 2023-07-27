@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Outfit:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
 }
 body {
   background-color: hsl(217, 54%, 11%);
+  display: flex;
 }
 .content {
   background-color: hsl(216, 54%, 16%);
@@ -23,5 +25,16 @@ body {
   padding-left: 40px;
 }
 .content h2 {
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
   color: white;
+  padding-left: 40px;
+}
+.content p {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  color: hsl(215, 32%, 27%);
+  padding-top: 18px;
+  padding-left: 40px;
 }
