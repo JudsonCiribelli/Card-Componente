@@ -9,6 +9,7 @@ body {
   display: flex;
 }
 .content {
+  display: block;
   background-color: hsl(216, 54%, 16%);
   width: 400px;
   height: 600px;
@@ -16,6 +17,7 @@ body {
   margin-left: 700px;
   border: none;
   border-radius: 10px;
+  box-shadow: 10px 10px 40px black;
 }
 .content img {
   display: flex;
@@ -23,12 +25,21 @@ body {
   height: 350px;
   padding-top: 20px;
   padding-left: 40px;
+  border-image: none;
+}
+.content img:hover {
+  cursor: pointer;
 }
 .content h2 {
   font-size: 20px;
+  font-weight: 600;
   font-family: "Outfit", sans-serif;
   color: white;
   padding-left: 40px;
+}
+.content h2:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
 }
 .content p {
   font-size: 18px;
@@ -37,4 +48,61 @@ body {
   color: hsl(215, 32%, 27%);
   padding-top: 18px;
   padding-left: 40px;
+}
+.icon-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.icon-div .icon {
+  width: 50px;
+  height: 40px;
+}
+.icon-div .icon-2 {
+  width: 60px;
+  height: 40px;
+  margin-left: 80px;
+}
+.icon-div h3 {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  padding-top: 20px;
+  padding-left: 6px;
+}
+.icon-div p {
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: -30px;
+}
+.content .line {
+  width: 82%;
+  height: 1px;
+  margin-top: 12px;
+  margin-left: 40px;
+  border-radius: 20px;
+  border: 1px solid hsl(215, 32%, 27%);
+}
+.content .avatar {
+  width: 30px;
+  height: 30px;
+  border: solid white 1px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 40px;
+  background-image: url(../images/image-avatar.png);
+  background-position: center;
+  background-size: cover;
+}
+.content .by {
+  font-size: 18px;
+  margin-left: 60px;
+  margin-top: -45px;
+}
+.content .by i {
+  color: white;
+}
+.content .by i:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
 }
